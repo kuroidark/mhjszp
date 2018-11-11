@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+link {
+    text-decoration: none;
+    color: rgb(142, 142, 142);
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    color: #ffffff;
+}
+
+#head_d {
+    background: rgb(245, 245, 245);
+    width: 100%;
+    height: 25px;
+}
+
+#head_d span {
+    color: rgb(142, 142, 142);
+    font-size: 16px;
+    font-family: '宋体';
+    margin: 0 60px 0 200px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+#main_head {
+    width: 100%;
+    height: 100px;
+}
+
+#logo {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: url(images/logo.png) right no-repeat;
+    background-size: 50%;
+}
+
+#lmxi {
+    width: 30%;
+    height: 100%;
+    float: right;
+    background: url(images/lmxi.png) left no-repeat;
+}
+
+#lmxi span {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 16px;
+    margin-top: 40px;
+    color: #ffffff;
+    padding-left: 50px;
+    text-align: left;
+}
+
+#banner {
+    width: 100%;
+    height: 80px;
+    background: rgb(0, 99, 202);
+}
+
+#banner ul {
+    display: block;
+    height: 32px;
+    padding-top: 25px;
+    margin-left: 100px;
+}
+
+#banner ul li {
+    float: left;
+    font-family: '黑体';
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    height: 32px;
+    margin-right: 20px;
+    line-height: 32px;
+    vertical-align: middle;
+}
+
+#banner ul li a:hover {
+    background: rgb(2, 89, 175);
+}
+
+#pictures {
+    width: 100%;
+    height: 500px;
+}
+
+#products {
+    width: 100%;
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#product_name ul li {
+    float: left;
+    font-size: 24px;
+    margin-left: 70px;
+    color: #000000;
+}
+
+#product_name a {
+    color: rgb(102, 102, 102);
+}
+
+#product_name {
+    color: rgb(102, 102, 127);
+    width: 70%;
+    margin: 0 auto;
+    height: 50px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+#product_pic {
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+#about_us {
+    width: 100%;
+    height: 750px;
+    background: url(images/foot.png) left no-repeat;
+}
+
+
+#about_us #left {
+    float: left;
+}
+
+#about_us #left #about {
+    width: 600px;
+    height: 300px;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+#about_us #left #us {
+    font-family: '微软雅黑';
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+#about_us #left #about p {
+    float: right;
+    text-align: left;
+}
+
+#about_us #right {
+    float: left;
+}
+
+#foot {
+    background: rgb(38, 39, 41);
+    width: 100%;
+    height: 250px;
+}
+
+#foot #left {
+    width: 40%;
+    height: 250px;
+    background: url(images/logo2.png) no-repeat right;
+    float: left;
+}
+
+#foot #right {
+    width: 100%;
+    height: 250px;
+    float: right;
+}
+
+#foot #right p {
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    margin-top: 80px;
+    height: 20px;
+    font-size: 24px;
+}
+
+.scroll_div {
+    width: 100%;
+    height: 500px;
+    margin: 0 0;
+    overflow: hidden;
+    white-space: nowrap;
+    background: #ffffff;
+}
+
+.scroll_div img {
+    width: 50%;
+    height: 500px;
+}
+
+#scroll_begin,
+#scroll_end,
+#scroll_begin ul,
+#scroll_end ul,
+#scroll_begin ul li,
+#scroll_end ul li {
+display: inline;
+}
+
+#scroll_begins,
+#scroll_ends,
+#scroll_begins ul,
+#scroll_ends ul,
+#scroll_begins ul li,
+#scroll_ends ul li {
+display: inline;
+}
+
+.scroll_divs {
+    width: 100%;
+    height: 300px;
+    margin: 0 0;
+    overflow: hidden;
+    white-space: nowrap;
+    background: #ffffff;
+}
+
+.scroll_divs img {
+    width: 50%;
+    height: 300px;
+}
